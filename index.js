@@ -6,8 +6,8 @@ var parseString = require('xml2js').parseString;
 const SQS = new AWS.SQS({apiVersion: '2012-11-05'});
 
 
-const QUEUE_URL = "https://sqs.ap-northeast-1.amazonaws.com/098616358255/mws_notifications";
-const FIFO_QUEUE_URL = "https://sqs.ap-northeast-1.amazonaws.com/098616358255/mws_notifications.fifo";
+const QUEUE_URL = "";
+const FIFO_QUEUE_URL = "";
 const FIFO_MESSAGE_GROUP_ID = "FIFO_MWS_NOTIFICATIONS_GROUP";
 
 
